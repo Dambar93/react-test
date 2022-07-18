@@ -4,11 +4,13 @@ import NavBar from "./RickAndMorty/NavBar";
 
 
 
+
 const Layout = ({children}) => {
     var d = Date(Date.now());
     var a = d.toString()
     return (
         <div className="container">
+
             <header>
                 <NavBar/>
             </header>

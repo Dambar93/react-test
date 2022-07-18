@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavBar = () => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" >
             <Container>
             <Navbar.Brand href="/"><img src="logo192.png" alt="" style={{width: 30 }} /> Rick and Morty fans</Navbar.Brand>
             <Nav className="me-auto">

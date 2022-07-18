@@ -6,6 +6,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 
 
+
 const List = () => {
     const [list, setList] = useState([]);
     const [page,setPage] = useState(1);
@@ -38,9 +39,11 @@ const List = () => {
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
-        <Table striped bordered hover>
-            <thead>
-                <tr>
+
+        <Table striped bordered hover >
+            
+            <thead style={{position: "sticky", top: "0", background:"white"}}>
+                <tr >
                     <th>ID</th>
                     <th>Image</th>
                     <th>Name</th>
